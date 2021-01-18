@@ -387,7 +387,7 @@ class PreSet extends Article {
 }
 class ScreenImage {
     constructor(item, xPos, yPos) {
-        this.image = this.loadNewImage(`assets/main-screen/${item}.png`);
+        this.image = this.loadNewImage(`Assets/Main-Screen/${item}.png`);
         this.xPosition = xPos;
         this.yPosition = yPos;
     }
